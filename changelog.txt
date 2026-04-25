@@ -1,0 +1,211 @@
+Updates : 
+
+11/8/25 Version 1.0 
+
+11/9/25 Version 1.1
+	-added assault team size options
+	-added more spawn delay options
+	-added sniper special unit spawn options
+	-added additional marshal spawn cap options
+
+11/15/25 Version 1.2
+	-added an optional lobby welcome message
+	-fbi snipers can now move fast
+	-fbi snipers can now move and shoot
+	-marshal snipers can shoot faster
+	-added additional shorter respawn delay
+
+11/18/25 Version 1.3
+	-changed marshal group limit to 2 (spawn issues)
+	-increased fbi sniper cap to 8
+	-mobile fbi snipers now use bullet trails
+	-mobile fbi snipers marked when player is hit
+
+11/23/25 Version 1.4
+	-added custom lobby name option
+	-added option to choose vanilla or mixed spawns
+	-added an even lower spawn delay option
+	-improved ai tactics and responsiveness
+	-assault wave optimizations
+	-improved tazer aggressiveness and range
+
+11/29/25 Version 1.5
+	-reduced marshal smoke grenades by 50%
+	-added team stats including headshot %
+	-rebroadcast server after kick or player leaves
+	-added mega spawn option 
+
+12/20/25 Version 1.6
+	-added swat snipers and additional marshal marksman type
+	-ecm jammer stun effect time reduced
+	-added scripted events to First World Bank (vault and escape)
+	-further increased tazer aggressiveness
+	-enhanced megaspawn results
+	
+1/11/26	 Version 1.7
+	-upgraded marshal sniper weapon from dmr to m14 sniper rifle
+	-increased marshal sniper spawn to 3 maximum
+	-added elite cloaker option (silent with special moves)
+	-added anti-griefing to prevent trolling (player explosive damage)
+	-added additional scripted events to FWB vault (it's absurd)
+	-chat notify on cloaker downs (host and client)
+	-fbi,swat and marshal snipers are now marked after player is hit
+
+2/23/26	Version 1.8 beta
+	-revamped group spawning system
+	-assault pool size now drives spawning size and rate
+	-added per-map settings for 'classic' maps (presets)
+	-all maps will have presets in the near future
+	-elite cloaker teams introduced
+	-tasers can now throw electric grenades (still a wip)
+	-modinfo chat command added (get info on the mod, all users)
+	-swat turrets don't auto regenerate now
+	-added special presets for No Mercy
+	-mod menu changes coming soon (preset driven)
+
+2/25/26	Version 1.81 beta
+	-fixed a critical issue with enemy swarm mode sometimes causing a host crash
+	-enemy swarm mode is now far more aggressive 
+	-added additional scripted events to First World Bank
+
+3/04/26 Version 1.82	
+	-Added additional presets for Bank Heist (Harvest & Trustee), Go Bank, Reservoir Dogs, Alesso Heist and all Armored Transport DLC
+	-Added checks for over-spawning so things don't get totally out of hand
+	-Elite cloakers have received more improvements
+	-Reduced mass spamming of gas and smoke grenades using a timer check
+	-Fixed ai players being incapacitated by taser grenades
+	-Cloaker melee now working during arrest events
+	-Added additional scripted events to First World Bank escape
+
+3/05/26	Version 1.83 beta
+	-fixed a crash in coplogictravel
+	-fixed endless assault mode
+	-created default settings for maps without presets
+	-updated menu to include presets
+
+3/07/26	Version 1.84 beta
+	-added the ability to skip the end stage screen
+	-added presets for Hoxton Breakout, Big Bank
+	-fixed issues when playing as client
+	-added the ability to enable/disable the mod for hosting (menu)
+	-elite cloaker behavior further improved
+
+3/08/26	Version 1.85 beta
+	-medic dozers upgraded to car-4 or commando 553 (random)
+	-dozers will now knock you out if you get in their face
+	-added Hoxton Breakout (Day 2) preset
+
+3/10/26	Version 1.86 beta
+	-fixed over-spawning of tasers, increased shields
+	-added hostage rescue team unit with custom weapons
+	-fixed a spawn problem with endless assault (now much worse)
+	-testing out special masks on elite cloakers and marksman
+
+3/19/26	Version 1.87 beta 
+	-changed the name to better fit long-term 
+	-delete your alva's mod folder after installing (new folder name)
+	-imposed hard spawn limits on snipers and elite marshals
+	-the new hard limits are tied to the per-map presets
+	-hard limit medic dozer spawning to 1
+	-swarm mode changed
+	-elite cloakers now have a larger range for flying kick 
+	-added presets for Aftershock, Alaskan Deal, Beneath The Mountain,
+	 Big Oil, Birth of Sky, Black Cat, Boiling Point, Border Crossing
+
+3/21/26	Version 1.88 beta
+	-fixed a crash when using mod menu in-game
+	-improved the enable/disable mod function in-menu
+	-fixed a mod conflict with explosion damage
+
+3/22/26	Version 1.89 beta
+	-fixed multiple scripts to be more compatible with other mods
+
+3/23/26	Version 1.90 beta
+	-increased delay between smoke and gas grenades (timer)	
+	-fixed an issue preventing medic dozers from spawning
+	-playtested and added scripted changes for Green Bridge (not finished yet)
+	-fixed cloaker arrest behavior to prevent if being tased or in downed animation 
+	-added additional physics force to dozer punches
+	-working on taking control of spawn points to avoid vanilla selection (soon)
+
+3/23/26	Version 1.91 beta
+	-Added new difficulty option "Elite Ultra" available from menu
+	-New difficulty applies multiplier to max spawns, enemy damage output and specials
+	-Still in early testing, feedback is appreciated
+
+3/28/26	Version 1.92 beta
+	-fixed a plethora of issues that I've been putting off
+	-dozer knockout is host and client side now
+	-dozer behavior is much more aggressive
+	-damage profiles for enemy units improved. revamped default weapons for both difficulties
+	-fixed an issue preventing normal assault waves (fade)
+	-swarm mode overhaul to prevent a crash in coplogictravel
+	-included additional rng to FWB vault event
+
+3/31/26	Version 1.93 beta
+	-further increased enemy damage output on both difficulties (elite and ultra)
+	-fixed a spawn glitch (wasn't checking for camping)
+	-revamped the megaspawn system to better distribute between spawn points. this solves the
+	 issue of many units coming from one spawn and makes the gameplay more difficult
+	-new spawn point selection is 80% done and will be added in soon. this will allow me to script
+	 which spawn points to use and when, which will end the dead spots in some maps
+	-new elite unit loadouts planned for ultra setting, including automatic dmr and some surprises
+	-cloaker logic improved and much more deadly / acrobatic
+
+4/04/26	Version 1.94 beta
+	-new presets for Brooklyn Bank, Hostile Takeover, and all escape maps (Cafe, Street, Garage, etc)
+	-fixed a callback that could cause a crash when a player goes into custody during a swarm
+	-changed forced spawn mode to push to max spawn level instead of threshold.
+	-revamped scripting system and decoupled from customlobby, now faster and easier to script events
+	-replaced endless assault with onslaught mode, added new deadly mode : Death Knell
+
+4/06/26	Version 1.94.1 beta
+	-realized i didn't include the most recent update for swarm and scripted events. now included
+	-newest events added to FWB and Heat Street
+
+4/09/26	Version 1.95
+	-updated death knell mode to unlock disabled spawn points, increased minimum specials significantly
+	-added stat command to chatresponder (displays assault info)
+	-fixed a piece of legacy code that was rng rolling a 50% chance of a bullet hit applying (oops). this is 
+	 why people were complaining of low damage. only half of the bullets actually hit. 
+	-additional 20% damage buff to Elite Ultra difficulty
+	-Elite mode still has a 30% rng roll against bullet hits applying (was 50%). Elite Ultra has no roll. 
+	
+4/11/26	Version 1.96 
+	-new presets for Crude Awakening, Midland Ranch and Lost In Transit (not tweaked yet)
+	-playtested Green Bridge and added new events, adjusted preset
+	-disabled fbi snipers on Midland Ranch. Appears to be a pathing bug for snipers on this map
+	-dozers while in death knell assault mode can lob molotovs to flush you out of cover. ruthless. 
+	-this new ability isn't activated yet. still playtesting it, coming soon. 
+
+4/18/26	Version 1.97
+	-added presets for Firestarter, Watchdogs and Goat Simulator
+	-i disabled a large amount of scripted snipers on Goat Simulator to make it playable (both days)
+	-Goat Simulator day 1 will periodically highlight the goats
+	-triggering death knell mode earlier in FWB escape. MUCH more difficult now
+	-added additional events to Green Bridge escape
+	-now spawning shotgun cops (r870) with dozer teams
+
+4/20/26	Version 1.97.2
+	-fixed Goat Simulator code so scripted snipers are actually reduced/gone (oops)
+	-adjusted Goat Simulator presets for more challenge
+	-added Nightclub preset
+	-introduced new elite marshal shields on Heat Street Escape
+	-new marshal shields are buffed, carry an r870 shotgun (shield and no shield) and have a throwable
+	-there is a 30% chance they will use a throwable against you when you break their shield
+
+4/23/26	Version 1.98
+	-added presets for Election Day
+	-changed assault teams to make them more aggressive
+	-included new elite marshal shields in regular assault waves
+	-both elite shields and dozers can now use a throwable (Molotov)
+	-enemy movement patterns are now far less predictable 
+
+4/25/26	Version 1.99
+	-forgot Election Day : Day 2. Added with events and reduced roof snipers
+	-recreated First World Bank vault events into 3 separate rng outcomes (surprise)
+	-version 2.0 will include auto-update via GitHub. work in progress. 
+	-added auto-disconnect when a desynced player cannot join (shows all as disconnected) 
+
+
+

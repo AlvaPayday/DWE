@@ -1,0 +1,236 @@
+{
+	"menu_id" : "adm_options_menu",
+	"parent_menu_id" : "blt_options",
+	"title" : "adm_options_menu_title",
+	"description" : "adm_options_menu_desc",
+	"back_callback" : "AlvasModSave",
+	"items" : [
+		{
+			"type" : "toggle",
+			"id" : "en_alvasmod",
+			"title" : "en_alvasmod_title",
+			"description" : "en_alvasmod_desc",
+			"callback" : "AlvasModMenuCheckboxClbk",
+			"value" : "en_alvasmod"
+		},
+
+		{
+			"type" : "toggle",
+			"id" : "en_presets",
+			"title" : "en_presets_title",
+			"description" : "en_presets_desc",
+			"callback" : "AlvasModMenuCheckboxClbk",
+			"value" : "en_presets"
+		},
+
+		{
+			"type" : "toggle",
+			"id" : "en_elite_ultra",
+			"title" : "en_elite_ultra_title",
+			"description" : "en_elite_ultra_desc",
+			"callback" : "AlvasModMenuCheckboxClbk",
+			"value" : "en_elite_ultra"
+		},
+		
+		{
+            "type": "divider",
+            "size": 16
+        	},
+		{
+			"type" : "multiple_choice",
+			"id" : "adm_sniper_count",
+			"title" : "adm_sniper_count_title",
+			"description": "adm_sniper_count_desc",
+			"callback" : "AlvasModMenuValueClbk",
+			"items" : [
+				"adm_sniper_count_1",
+				"adm_sniper_count_2",
+				"adm_sniper_count_3"
+				
+			],
+			"value" : "adm_sniper_count",
+			"default_value" : 2
+		},
+
+		{
+			"type" : "toggle",
+			"id" : "en_marshal_smoke",
+			"title" : "en_marshal_smoke_title",
+			"description" : "en_marshal_smoke_desc",
+			"callback" : "AlvasModMenuCheckboxClbk",
+			"value" : "en_marshal_smoke"
+		},
+		
+		{
+			"type" : "toggle",
+			"id" : "en_cloakers",
+			"title" : "en_cloakers_title",
+			"description" : "en_cloakers_desc",
+			"callback" : "AlvasModMenuCheckboxClbk",
+			"value" : "en_cloakers"
+		},
+
+				
+		{
+			"type" : "toggle",
+			"id" : "en_teargas",
+			"title" : "en_teargas_title",
+			"description" : "en_teargas_desc",
+			"callback" : "AlvasModMenuCheckboxClbk",
+			"value" : "en_teargas"
+		},
+		{
+			"type" : "toggle",
+			"id" : "en_fbi_sniper",
+			"title" : "en_fbi_sniper_title",
+			"description" : "en_fbi_sniper_desc",
+			"callback" : "AlvasModMenuCheckboxClbk",
+			"value" : "en_fbi_sniper"
+		},
+		{
+            "type": "divider",
+            "size": 16
+        	},
+		{
+			"type" : "multiple_choice",
+			"id" : "fbi_sniper_limit",
+			"title" : "fbi_sniper_limit_title",
+			"description": "fbi_sniper_limit_desc",
+			"callback" : "AlvasModMenuValueClbk",
+			"items" : [
+				"fbi_sniper_limit_1",
+				"fbi_sniper_limit_2",
+				"fbi_sniper_limit_3",
+				"fbi_sniper_limit_4"
+				"fbi_sniper_limit_5",
+				"fbi_sniper_limit_6",
+				"fbi_sniper_limit_7",
+				"fbi_sniper_limit_8"
+			],
+			"value" : "fbi_sniper_limit",
+			"default_value" : 1
+		},
+		{
+            "type": "divider",
+            "size": 16
+        	},
+		
+		{
+            		"type": "divider",
+            		"size": 16
+        	},
+		{
+			"type" : "multiple_choice",
+			"id" : "dozer_spawn",
+			"title" : "dozer_spawn_title",
+			"description": "dozer_spawn_desc",
+			"callback" : "AlvasModMenuValueClbk",
+			"items" : [
+				"dozer_spawn_1",
+				"dozer_spawn_2",
+				"dozer_spawn_3",
+				"dozer_spawn_4",
+				"dozer_spawn_5",
+				"dozer_spawn_6"
+				
+			],
+			"value" : "dozer_spawn",
+			"default_value" : 3
+		},
+		
+		{
+			"type" : "divider",
+			"size" : 16
+		},
+		{
+			"type" : "slider",
+			"id" : "assault_pool",
+			"title" : "assault_pool_title",
+			"description" : "assault_pool_desc",
+			"callback" : "AlvasModMenuValueClbk",
+			"value" : "assault_pool",
+			"default_value" : 100,
+			"min" : 80,
+			"max" : 280,
+			"step" : 10
+		},
+
+		{
+            		"type": "divider",
+            		"size": 16
+        	},
+		{
+			"type" : "multiple_choice",
+			"id" : "assault_team_size",
+			"title" : "assault_team_size_title",
+			"description": "assault_team_size_desc",
+			"callback" : "AlvasModMenuValueClbk",
+			"items" : [
+				"assault_team_size_1",
+				"assault_team_size_2",
+				"assault_team_size_3"
+				
+			],
+			"value" : "assault_team_size",
+			"default_value" : 2
+		}
+
+		{
+            "type": "divider",
+            "size": 16
+        	},
+		{
+			"type" : "multiple_choice",
+			"id" : "spawn_delay",
+			"title" : "spawn_delay_title",
+			"description": "spawn_delay_desc",
+			"callback" : "AlvasModMenuValueClbk",
+			"items" : [
+				"spawn_delay_1",
+				"spawn_delay_2",
+				"spawn_delay_3",
+				"spawn_delay_4",
+				"spawn_delay_5",
+				"spawn_delay_6"
+				
+			],
+			"value" : "spawn_delay",
+			"default_value" : 3
+		},
+
+		{
+			"type" : "toggle",
+			"id" : "en_megaspawn",
+			"title" : "megaspawn_title",
+			"description" : "megaspawn_desc",
+			"callback" : "AlvasModMenuCheckboxClbk",
+			"value" : "en_megaspawn"
+		},
+
+
+		{
+			"type" : "toggle",
+			"id" : "en_welcome",
+			"title" : "en_welcome_title",
+			"description" : "en_welcome_desc",
+			"callback" : "AlvasModMenuCheckboxClbk",
+			"value" : "en_welcome"
+		},
+		{
+			"type" : "toggle",
+			"id" : "lobby_name",
+			"title" : "lobby_name_title",
+			"description" : "lobby_name_desc",
+			"callback" : "AlvasModMenuCheckboxClbk",
+			"value" : "lobby_name"
+		}
+
+
+
+
+
+
+		
+		
+	]
+}

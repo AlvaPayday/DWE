@@ -1,0 +1,27 @@
+>varied enemies will spawn
+>more enemies spawn, and faster
+>standard enemies use better weapons
+>fbi+swat snipers spawn as special units
+>elite marshal snipers use fbi sniper
+>elite marshals can no-scope 
+>elite marshals use smoke grenades
+>skull and minidozers spawn regularly
+>all sniper types can run and shoot
+>all sniper types can move and aim faster
+>bulldozers faster, more aggressive
+>bulldozers form teams
+>bulldozers can knock you out
+>scripted events added to certain maps
+>elite cloakers can chain attacks
+>chance for elite cloaker teams
+>assault wave and enemy behavior changes
+>captain and marshal shields are disabled
+>tear gas on spawn points (select maps)
+>swat turret does not self repair 
+>tasers throw shock grenades
+>elite marshal shields have molotovs
+>dozers have molotovs in deathknell mode
+>type stat for current assault info
+>current version 1.99
+
+

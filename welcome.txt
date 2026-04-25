@@ -1,0 +1,1 @@
+Hi $NAME this is a Deathwish Elite server. Type modinfo for details
